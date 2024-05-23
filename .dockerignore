@@ -1,0 +1,39 @@
+
+
+# Ignore version control directories
+.git/
+.gitignore
+
+# Ignore all bytecode compiled files
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Ignore Docker files that are not needed in the build context
+Dockerfile
+docker-compose.yml
+
+# Ignore virtual environment
+tesis/
+
+# Ignore any other unnecessary files
+*.log
+tmp/
+local_settings.py
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Development tools
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+
+# Moodle data
+moodledata/
